@@ -4,8 +4,7 @@ x_values_2 = range(1, 5001)
 y_values_2 = [x**3 for x in x_values_2]
 
 fig, ax = plt.subplots()
-
-ax.plot(x_values_2, y_values_2, linewidth=2)
+ax.scatter(x_values_2, y_values_2, c=y_values_2, cmap=plt.cm.spring, s=5)
 
 ax.set_title("Cubic Numbers", fontsize=24)
 ax.set_xlabel("Value", fontsize=14)
