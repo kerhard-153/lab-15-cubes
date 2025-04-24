@@ -1,3 +1,8 @@
+# Cubes to 5000
+# Kate Erhard
+# Plots numbers and their squares in the range of 1 and 5000 (inclusive)
+# 4/23/25
+
 import matplotlib.pyplot as plt
 
 x_values_2 = range(1, 5001)

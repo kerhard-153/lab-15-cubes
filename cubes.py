@@ -1,3 +1,8 @@
+# Cubic numbers
+# Kate Erhard
+# Plots the numbers 1-5 (inclusive) and their squares
+# 4/23/25
+
 import matplotlib.pyplot as plt
 
 x_values_1 = [1, 2, 3, 4, 5]
